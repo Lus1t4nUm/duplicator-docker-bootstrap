@@ -13,8 +13,14 @@ The source code is available here from GitHub:
 3. `cd duplicator-docker-bootstrap` 
 4. `docker-compose up -d`
 5. open http://{SiteDomain}/installer.php in your Browser
-6. Install using host: {SiteDomain}; User: wordpressuser Pass: wordpresspass; Db: wordpressdb
-~~~
-You have to change the database credentials in docker-compose.yml if you want to deploy in production.
-~~~
+6. Install using host (as shown in picture):
+![picture alt](https://image.ibb.co/dhMKW8/Screen_Shot_2018_07_29_at_21_38_32.png "Database configuration")
+ *  Host: {sitedomain} (see docker-compose.yml)
+    *  User: wordpressuser
+    *  Password: wordpresspass
+    *  Database: wordpressdb
+
+
+:exclamation: You have to change the database credentials in docker-compose.yml if you want to deploy in production.
+
 
