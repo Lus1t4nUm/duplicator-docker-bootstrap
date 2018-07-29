@@ -1,0 +1,18 @@
+wordpress:
+  build: ./duplicator
+  environment:
+    VIRTUAL_HOST: localhost
+  ports:
+    - 80:80
+  restart: always
+  links:
+    - mysql:mysql
+mysql:
+  environment:
+    MYSQL_DATABASE: wordpressdb
+    MYSQL_PASSWORD: wordpresspass
+    MYSQL_ROOT_PASSWORD: ''
+    MYSQL_USER: wordpressuser
+  ports:
+    - 3306:3306
+  image: yobasystems/alpine-mariadb
