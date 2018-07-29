@@ -9,13 +9,12 @@ You can check the image in [Dockerhub](https://hub.docker.com/r/yobasystems/alpi
 
 The source code is available here from GitHub:
 1. `git clone https://github.com/Lus1t4nUm/duplicator-docker-bootstrap`
-2. `cd duplicator-docker-bootstrap``
+2. `cd duplicator-docker-bootstrap`
 3. `mkdir duplicator/content`
 4. Place your backups files, .zip and installer.php in ./duplicator/content
-5. `cd duplicator-docker-bootstrap` 
-6. `docker-compose up -d --build`
-7. open http://{SiteDomain}/installer.php in your Browser
-8. Install using host (as shown in picture):
+5. `docker-compose up -d --build`
+6. open http://{SiteDomain}/installer.php in your Browser
+7. Install native Duplicator installer (as shown in picture):
 ![picture alt](https://image.ibb.co/dhMKW8/Screen_Shot_2018_07_29_at_21_38_32.png=340 "Database configuration")
     *  Host: {sitedomain} 
     *  User: wordpressuser
