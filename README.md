@@ -11,7 +11,7 @@ The source code is available here from GitHub:
 1. `git clone https://github.com/Lus1t4nUm/duplicator-bootstrap`
 2. Place your zip and installer.php in duplicator/content
 3. `cd duplicator-docker-bootstrap` 
-4. `docker-compose up -d`
+4. `docker-compose up -d --build`
 5. open http://{SiteDomain}/installer.php in your Browser
 6. Install using host (as shown in picture):
 ![picture alt](https://image.ibb.co/dhMKW8/Screen_Shot_2018_07_29_at_21_38_32.png=340 "Database configuration")
