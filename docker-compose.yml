@@ -7,6 +7,7 @@ wordpress:
   restart: always
   links:
     - mysql:mysql
+  container_name: wordpress_nginx
 mysql:
   environment:
     MYSQL_DATABASE: wordpressdb
@@ -16,3 +17,4 @@ mysql:
   ports:
     - 3306:3306
   image: yobasystems/alpine-mariadb
+  container_name: wordpress_db
