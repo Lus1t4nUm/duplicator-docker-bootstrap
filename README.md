@@ -14,7 +14,7 @@ The source code is available here from GitHub:
 4. `docker-compose up -d`
 5. open http://{SiteDomain}/installer.php in your Browser
 6. Install using host (as shown in picture):
-![picture alt](https://image.ibb.co/dhMKW8/Screen_Shot_2018_07_29_at_21_38_32.png "Database configuration")
+![picture alt](https://image.ibb.co/dhMKW8/Screen_Shot_2018_07_29_at_21_38_32.png=450x "Database configuration")
  *  Host: {sitedomain} (see docker-compose.yml)
     *  User: wordpressuser
     *  Password: wordpresspass
