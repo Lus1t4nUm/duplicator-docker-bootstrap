@@ -9,6 +9,7 @@ wordpress:
     - mysql:mysql
   container_name: wordpress_nginx
 mysql:
+  build: ./mariadb
   environment:
     MYSQL_DATABASE: wordpressdb
     MYSQL_PASSWORD: wordpresspass
@@ -16,5 +17,4 @@ mysql:
     MYSQL_USER: wordpressuser
   ports:
     - 3306:3306
-  image: yobasystems/alpine-mariadb
   container_name: wordpress_db

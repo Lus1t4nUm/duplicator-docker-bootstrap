@@ -12,9 +12,9 @@ The source code is available here from GitHub:
 2. `cd duplicator-docker-bootstrap`
 3. `mkdir duplicator/content`
 4. Place your backups files, .zip and installer.php in ./duplicator/content
-5. `docker-compose up -d --build`
+5. `docker-compose up --build`
 6. open http://{SiteDomain}/installer.php in your Browser
-7. Install native Duplicator installer (as shown in picture):
+7. Install using the native Duplicator installer (as shown in picture):
 ![picture alt](https://image.ibb.co/dhMKW8/Screen_Shot_2018_07_29_at_21_38_32.png=340 "Database configuration")
     *  Host: {sitedomain} 
     *  User: wordpressuser
