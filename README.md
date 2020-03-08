@@ -1,5 +1,5 @@
 # Duplicator Docker Bootstrap #
-I made this bootstrap for deploying a duplicator backup up and running. Featuring PHP 7, Nginx. You only have to place the backup contents in duplicator/content folder. and Enjoy! 
+We made this bootstrap for deploying a duplicator backup up and running. Featuring PHP 7, Nginx. You only have to place the backup contents in duplicator/content folder. and Enjoy! 
 
 This bootstrap uses:
 [alpine-mariadb](https://github.com/yobasystems/alpine-mariadb) and [alpine-php-wordress](https://github.com/yobasystems/alpine-php-wordpress/releases)
@@ -8,7 +8,7 @@ You can check the image in [Dockerhub](https://hub.docker.com/r/yobasystems/alpi
 ## Building your backup ##
 
 The source code is available here from GitHub:
-1. `git clone https://github.com/Lus1t4nUm/duplicator-docker-bootstrap`
+1. `git clone https://github.com/bigmonte/duplicator-docker-bootstrap`
 2. `cd duplicator-docker-bootstrap`
 3. `mkdir duplicator/content`
 4. Place your backups files, .zip and installer.php in ./duplicator/content
