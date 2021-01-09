@@ -1,4 +1,4 @@
-FROM yobasystems/alpine-php-wordpress:master
+FROM yobasystems/alpine-php-wordpress
 WORKDIR /usr/html
 COPY ./content/* ./
 RUN apk update
